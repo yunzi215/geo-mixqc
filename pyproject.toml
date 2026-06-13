@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=64.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geo-mixqc"
+version = "1.0.0"
+description = "Five-test algorithm for detecting mixed-normalization artifacts in public transcriptomic matrices"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "Yun et al.", email = "yunzi1516@gmail.com"},
+]
+keywords = ["geo", "microarray", "quality-control", "normalization", "bioinformatics", "transcriptomics"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
+dependencies = [
+    "numpy>=1.20",
+    "scipy>=1.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pytest-cov>=4.0"]
+
+[project.scripts]
+geo-mixqc = "geo_mixqc.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/geo-mixqc"
+Documentation = "https://github.com/YOUR_USERNAME/geo-mixqc#readme"
+Repository = "https://github.com/YOUR_USERNAME/geo-mixqc"
+Issues = "https://github.com/YOUR_USERNAME/geo-mixqc/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
