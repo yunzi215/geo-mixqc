@@ -26,7 +26,7 @@ Public transcriptomic repositories (GEO, ArrayExpress) are widely reused for sec
 pip install geo-mixqc
 
 # From GitHub
-git clone https://github.com/YOUR_USERNAME/geo-mixqc.git
+git clone https://github.com/yunzi215/geo-mixqc.git
 cd geo-mixqc
 pip install -e .
 ```
