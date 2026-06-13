@@ -38,10 +38,10 @@ dev = ["pytest>=7.0", "pytest-cov>=4.0"]
 geo-mixqc = "geo_mixqc.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/YOUR_USERNAME/geo-mixqc"
-Documentation = "https://github.com/YOUR_USERNAME/geo-mixqc#readme"
-Repository = "https://github.com/YOUR_USERNAME/geo-mixqc"
-Issues = "https://github.com/YOUR_USERNAME/geo-mixqc/issues"
+Homepage = "https://github.com/yunzi215/geo-mixqc"
+Documentation = "https://github.com/yunzi215/geo-mixqc#readme"
+Repository = "https://github.com/yunzi215/geo-mixqc"
+Issues = "https://github.com/yunzi215/geo-mixqc/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
